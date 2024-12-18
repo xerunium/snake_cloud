@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt update && sudo apt upgrade -y
-dpkg —configure -a 
+sudo dpkg —configure -a 
 apt install docker
 snap install docker
 docker pull aschil/snake

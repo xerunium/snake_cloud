@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sudo apt update && sudo apt upgrade -y
 dpkg —configure -a 
 apt install docker
 snap install docker
